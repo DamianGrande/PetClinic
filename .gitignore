@@ -153,3 +153,5 @@ Desktop.ini
 /pet-clinic-web/target/classes/application.properties
 /pet-clinic-web/target/classes/dog.jpg
 /pet-clinic-web/target/classes/templates/index.html
+/pet-clinic-web/target/classes/templates/owners/index.html
+/pet-clinic-web/target/classes/templates/vets/index.html
