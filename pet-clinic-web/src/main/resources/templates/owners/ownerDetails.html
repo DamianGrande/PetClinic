@@ -24,8 +24,8 @@
         <td th:text="*{telephone}"></td>
     </tr>
 </table>
-<a th:href="@{{id}/edit(id=*{id})}" class="btn btn-default">Edit Owner</a>
-<a th:href="@{{id}/pets/new(id=*{id})}" class="btn btn-default">Add New Pet</a>
+<a th:href="@{/owners/{id}/edit(id=${owner.id})}" class="btn btn-default">Edit Owner</a>
+<a th:href="@{{id}/pets/new(id=${owner.id})}" class="btn btn-default">Add New Pet</a>
 <br/>
 <br/>
 <br/>
