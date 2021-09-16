@@ -35,4 +35,8 @@ public class Pet extends BaseEntity {
     public Pet(Long id) {
         super(id);
     }
+
+    public void addVisit(Visit visit) {
+        this.visits.add(visit);
+    }
 }
